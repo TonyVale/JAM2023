@@ -106,6 +106,7 @@ NavMeshSettings:
   m_BuildSettings:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serializedVersion: 3
 =======
     serializedVersion: 2
@@ -113,6 +114,9 @@ NavMeshSettings:
 =======
     serializedVersion: 3
 >>>>>>> 0811b38 (level prefab)
+=======
+    serializedVersion: 3
+>>>>>>> 8dd11ad (level prefab)
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
@@ -127,6 +131,7 @@ NavMeshSettings:
     tileSize: 256
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     buildHeightMesh: 0
 =======
     accuratePlacement: 0
@@ -134,6 +139,9 @@ NavMeshSettings:
 =======
     buildHeightMesh: 0
 >>>>>>> 0811b38 (level prefab)
+=======
+    buildHeightMesh: 0
+>>>>>>> 8dd11ad (level prefab)
     maxJobWorkers: 0
     preserveTilesOutsideBounds: 0
     debug:
@@ -200,8 +208,11 @@ Camera:
   m_FOVAxisMode: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0811b38 (level prefab)
+=======
+>>>>>>> 8dd11ad (level prefab)
   m_Iso: 200
   m_ShutterSpeed: 0.005
   m_Aperture: 16
@@ -211,6 +222,7 @@ Camera:
   m_Curvature: {x: 2, y: 11}
   m_BarrelClipping: 0.25
   m_Anamorphism: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -223,6 +235,10 @@ Camera:
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
 >>>>>>> 0811b38 (level prefab)
+=======
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+>>>>>>> 8dd11ad (level prefab)
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -278,6 +294,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
@@ -663,10 +680,17 @@ SceneRoots:
   m_LocalScale: {x: 1, y: 1, z: 1}
 =======
 >>>>>>> 6bfd4af (Player Fatures V1.0)
+=======
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+>>>>>>> 8dd11ad (level prefab)
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2c2dc0e (first)
@@ -915,10 +939,17 @@ Transform:
   serializedVersion: 2
 <<<<<<< HEAD
 >>>>>>> 8dd11ad (level prefab)
+=======
+--- !u!1001 &1623845616493108443
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+>>>>>>> 8dd11ad (level prefab)
   m_Modification:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -932,6 +963,8 @@ Transform:
 >>>>>>> 8dd11ad (level prefab)
 =======
 >>>>>>> cfdac43 (Player Fatures V1.0)
+=======
+>>>>>>> 8dd11ad (level prefab)
     - target: {fileID: 2346220002733952486, guid: c41ea625e0a8b195892980bdf4c109fc, type: 3}
       propertyPath: m_Name
       value: Level (Prefab)
@@ -978,6 +1011,7 @@ Transform:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cfdac43 (Player Fatures V1.0)
     - target: {fileID: 6947618772408775848, guid: c41ea625e0a8b195892980bdf4c109fc, type: 3}
@@ -993,6 +1027,8 @@ Transform:
 >>>>>>> 8dd11ad (level prefab)
 =======
 >>>>>>> cfdac43 (Player Fatures V1.0)
+=======
+>>>>>>> 8dd11ad (level prefab)
     - target: {fileID: 8095240804670257515, guid: c41ea625e0a8b195892980bdf4c109fc, type: 3}
       propertyPath: m_LocalScale.x
       value: 24.16453
@@ -1011,6 +1047,7 @@ Transform:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cfdac43 (Player Fatures V1.0)
     - target: {fileID: 9211349624952142521, guid: c41ea625e0a8b195892980bdf4c109fc, type: 3}
@@ -1022,11 +1059,14 @@ Transform:
 >>>>>>> 8dd11ad (level prefab)
 =======
 >>>>>>> cfdac43 (Player Fatures V1.0)
+=======
+>>>>>>> 8dd11ad (level prefab)
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c41ea625e0a8b195892980bdf4c109fc, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1123,11 +1163,14 @@ PrefabInstance:
 >>>>>>> cfdac43 (Player Fatures V1.0)
 =======
 >>>>>>> bf3754f (killplayer tag)
+=======
+>>>>>>> 8dd11ad (level prefab)
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1178,4 +1221,10 @@ SceneRoots:
   - {fileID: 1681997215}
 >>>>>>> bf3754f (killplayer tag)
 >>>>>>> 20d29f3 (killplayer tag)
+<<<<<<< HEAD
 >>>>>>> 44f3488 (killplayer tag)
+=======
+=======
+  - {fileID: 1623845616493108443}
+>>>>>>> 8dd11ad (level prefab)
+>>>>>>> 80a79ce (level prefab)

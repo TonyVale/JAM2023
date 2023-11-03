@@ -31,6 +31,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 66af076 (level prefab)
 =======
@@ -41,11 +42,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2121828816955858624}
 =======
+=======
+>>>>>>> 8dd11ad (level prefab)
   m_LocalPosition: {x: 15.206879, y: 2.3349595, z: 0.03532781}
   m_LocalScale: {x: 4, y: 9.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4467449400956092847}
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 0811b38 (level prefab)
 =======
@@ -68,6 +72,8 @@ Transform:
   m_Father: {fileID: 2121828816955858624}
 >>>>>>> bf3754f (killplayer tag)
 >>>>>>> 20d29f3 (killplayer tag)
+=======
+>>>>>>> 8dd11ad (level prefab)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8520715867038036568
 SpriteRenderer:
@@ -195,6 +201,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 66af076 (level prefab)
 =======
@@ -205,6 +212,8 @@ Transform:
   m_Children:
   - {fileID: 2121828816955858624}
 =======
+=======
+>>>>>>> 8dd11ad (level prefab)
   m_LocalPosition: {x: -1.4068785, y: -1.8349596, z: -0.03532781}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -215,6 +224,7 @@ Transform:
   - {fileID: 5491228253649190343}
   - {fileID: 8969316291837545937}
   - {fileID: 8095240804670257515}
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 0811b38 (level prefab)
 =======
@@ -237,6 +247,8 @@ Transform:
   - {fileID: 2121828816955858624}
 >>>>>>> bf3754f (killplayer tag)
 >>>>>>> 20d29f3 (killplayer tag)
+=======
+>>>>>>> 8dd11ad (level prefab)
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2425987079225304314
@@ -269,6 +281,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 66af076 (level prefab)
 =======
@@ -279,11 +292,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2121828816955858624}
 =======
+=======
+>>>>>>> 8dd11ad (level prefab)
   m_LocalPosition: {x: 1.1716784, y: 2.3074596, z: 2.035328}
   m_LocalScale: {x: 25.124079, y: 11.3163595, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4467449400956092847}
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 0811b38 (level prefab)
 =======
@@ -306,6 +322,8 @@ Transform:
   m_Father: {fileID: 2121828816955858624}
 >>>>>>> bf3754f (killplayer tag)
 >>>>>>> 20d29f3 (killplayer tag)
+=======
+>>>>>>> 8dd11ad (level prefab)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3059951757637738217
 SpriteRenderer:
@@ -390,6 +408,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 66af076 (level prefab)
 =======
@@ -400,11 +419,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2121828816955858624}
 =======
+=======
+>>>>>>> 8dd11ad (level prefab)
   m_LocalPosition: {x: -12.393122, y: 2.3349595, z: 0.03532781}
   m_LocalScale: {x: 4, y: 9.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4467449400956092847}
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 0811b38 (level prefab)
 =======
@@ -427,6 +449,8 @@ Transform:
   m_Father: {fileID: 2121828816955858624}
 >>>>>>> bf3754f (killplayer tag)
 >>>>>>> 20d29f3 (killplayer tag)
+=======
+>>>>>>> 8dd11ad (level prefab)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5924031168228099332
 SpriteRenderer:
@@ -556,6 +580,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 66af076 (level prefab)
 =======
@@ -566,11 +591,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2121828816955858624}
 =======
+=======
+>>>>>>> 8dd11ad (level prefab)
   m_LocalPosition: {x: 1.3068784, y: 7.8349595, z: 0.03532781}
   m_LocalScale: {x: 28, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4467449400956092847}
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 0811b38 (level prefab)
 =======
@@ -593,6 +621,8 @@ Transform:
   m_Father: {fileID: 2121828816955858624}
 >>>>>>> bf3754f (killplayer tag)
 >>>>>>> 20d29f3 (killplayer tag)
+=======
+>>>>>>> 8dd11ad (level prefab)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &444997401542599465
 SpriteRenderer:
@@ -722,6 +752,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 66af076 (level prefab)
 =======
@@ -732,11 +763,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2121828816955858624}
 =======
+=======
+>>>>>>> 8dd11ad (level prefab)
   m_LocalPosition: {x: 1.3068784, y: -3.1650405, z: 0.03532781}
   m_LocalScale: {x: 28, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4467449400956092847}
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 0811b38 (level prefab)
 =======
@@ -759,6 +793,8 @@ Transform:
   m_Father: {fileID: 2121828816955858624}
 >>>>>>> bf3754f (killplayer tag)
 >>>>>>> 20d29f3 (killplayer tag)
+=======
+>>>>>>> 8dd11ad (level prefab)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6037859575653257058
 SpriteRenderer:
@@ -887,6 +923,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 66af076 (level prefab)
 =======
@@ -897,11 +934,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2121828816955858624}
 =======
+=======
+>>>>>>> 8dd11ad (level prefab)
   m_LocalPosition: {x: 1.4536785, y: -2.3872404, z: 0.03532781}
   m_LocalScale: {x: 24.13798, y: 0.79596, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4467449400956092847}
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 0811b38 (level prefab)
 =======
@@ -924,6 +964,8 @@ Transform:
   m_Father: {fileID: 2121828816955858624}
 >>>>>>> bf3754f (killplayer tag)
 >>>>>>> 20d29f3 (killplayer tag)
+=======
+>>>>>>> 8dd11ad (level prefab)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6674309035391216649
 SpriteRenderer:
@@ -977,6 +1019,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1043,3 +1086,5 @@ Transform:
 =======
 >>>>>>> bf3754f (killplayer tag)
 >>>>>>> 20d29f3 (killplayer tag)
+=======
+>>>>>>> 8dd11ad (level prefab)
