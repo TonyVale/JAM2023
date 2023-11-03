@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+<<<<<<< HEAD
 using System.Numerics;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
@@ -49,15 +50,28 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     void Start(){
 <<<<<<< HEAD
+<<<<<<< HEAD
         timerAux = LavaDoorTimer;
         AuxDoor1 = LavaDoorR.GetComponent<Transform>().position;
         AuxDoor2 = LavaDoorL.GetComponent<Transform>().position;
 =======
+=======
+=======
+using UnityEngine;
+
+public class GameController : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+>>>>>>> 04d7f84 (movment first commi)
+>>>>>>> f7c7bb8 (movment first commi)
         
 >>>>>>> d248b22 (merge attempt)
     }
 
     // Update is called once per frame
+<<<<<<< HEAD
     void Update(){
         
 <<<<<<< HEAD
@@ -96,3 +110,10 @@ public class GameController : MonoBehaviour
     }
 }
  
+=======
+    void Update()
+    {
+        
+    }
+}
+>>>>>>> 04d7f84 (movment first commi)
