@@ -3,14 +3,21 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< HEAD
   tags:
   - KillPlayer
   - Level
   - LevelSpawn
 <<<<<<< HEAD
+<<<<<<< HEAD
   - SceneChanger
 =======
 >>>>>>> d248b22 (merge attempt)
+=======
+=======
+  tags: []
+>>>>>>> 2c2dc0e (first)
+>>>>>>> 9acd7fc (first)
   layers:
   - Default
   - TransparentFX
