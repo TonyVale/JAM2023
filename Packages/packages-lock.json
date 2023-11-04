@@ -97,10 +97,14 @@
     "com.unity.burst": {
       "version": "1.8.9",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "depth": 1,
 =======
       "depth": 3,
 >>>>>>> 2c2dc0e (first)
+=======
+      "depth": 1,
+>>>>>>> 6bfd4af (Player Fatures V1.0)
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.2.1"
@@ -167,6 +171,9 @@
     "com.unity.mathematics": {
       "version": "1.2.6",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6bfd4af (Player Fatures V1.0)
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -196,14 +203,20 @@
     },
     "com.unity.searcher": {
       "version": "4.9.2",
+<<<<<<< HEAD
 =======
 >>>>>>> 2c2dc0e (first)
+=======
+>>>>>>> 6bfd4af (Player Fatures V1.0)
       "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6bfd4af (Player Fatures V1.0)
     "com.unity.shadergraph": {
       "version": "14.0.9",
       "depth": 1,
@@ -213,8 +226,11 @@
         "com.unity.searcher": "4.9.2"
       }
     },
+<<<<<<< HEAD
 =======
 >>>>>>> 2c2dc0e (first)
+=======
+>>>>>>> 6bfd4af (Player Fatures V1.0)
     "com.unity.sysroot": {
       "version": "2.0.7",
       "depth": 1,

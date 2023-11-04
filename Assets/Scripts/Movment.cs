@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -24,19 +25,36 @@ public class Movment : MonoBehaviour
 
     RaycastHit2D _hit;
 =======
+=======
+using System;
+>>>>>>> 6bfd4af (Player Fatures V1.0)
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
+using Unity.VisualScripting;
 using UnityEditor.Callbacks;
 using UnityEngine;
 
+//2 CHESS, 2 BOND, 2 ROQUE 
 public class Movment : MonoBehaviour
 {
-    public GameObject Floor;
+
     Rigidbody2D rb2d;
+    Transform trans;
+    Transform DownCollitionRadarTrans;
 
     public int watherCharge;
     public int watherPower; 
+<<<<<<< HEAD
 >>>>>>> 04d7f84 (movment first commi)
+=======
+    public int MaxFloorHeight;
+    public int MaxJumpVelocity;
+    public GameObject DownCollitionRadar;
+    public GameObject Water;
+
+    RaycastHit2D _hit;
+>>>>>>> 6bfd4af (Player Fatures V1.0)
     /// <summary>
     /// Awake is called when the script instance is being loaded.
     /// </summary>
@@ -66,21 +84,16 @@ public class Movment : MonoBehaviour
         }
 =======
         rb2d = GetComponent<Rigidbody2D>();
-
+        trans = GetComponent<Transform>();
+        DownCollitionRadarTrans = DownCollitionRadar.GetComponent<Transform>();
+        
     }
     
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start(){
 
     }
 
-    // Update is called once per frame
-
-    /// <summary>
-    
-    /// This function is called every fixed framerate frame, if the MonoBehaviour is enabled.
-    /// </summary>
     void FixedUpdate(){
 
 >>>>>>> 04d7f84 (movment first commi)
@@ -99,10 +112,14 @@ public class Movment : MonoBehaviour
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6bfd4af (Player Fatures V1.0)
         if(Input.GetKey("space") && _hit.distance <= MaxFloorHeight && watherCharge >= 0 && rb2d.velocity.y <= MaxJumpVelocity ){
             
             Instantiate(Water, DownCollitionRadarTrans);
             rb2d.AddForce(new Vector2( 0f , watherPower ));
+<<<<<<< HEAD
             watherCharge--;
             
         }
@@ -123,22 +140,25 @@ public class Movment : MonoBehaviour
 =======
         if(Input.GetKey("space") && watherCharge >= 0 && Mathf.Abs(GetComponent<Transform>().position.y - Floor.GetComponent<Transform>().position.y) <= 5 ){
             rb2d.AddForce(new Vector2( 0f , watherPower));
+=======
+>>>>>>> 6bfd4af (Player Fatures V1.0)
             watherCharge--;
-            Debug.Log("Go");
-            if(rb2d.velocity.y > 4 ){
-                Debug.Log("Back");
-                rb2d.AddForce(new Vector2( 0f , -watherPower ));
-            }
+            //Draw2DRay(trans.position, Vector2.down * _hit.distance);
         }
-        if(Input.GetKey("space") && watherCharge >= 0 && Mathf.Abs(GetComponent<Transform>().position.y - Floor.GetComponent<Transform>().position.y) >= 5){
-            watherCharge--;
-        }
-
+        Debug.Log(_hit.collider.name);
+        Debug.Log(_hit.distance);
 
     }
 
     void Update(){
+<<<<<<< HEAD
 >>>>>>> 04d7f84 (movment first commi)
+=======
+
+        
+        _hit = Physics2D.Raycast(DownCollitionRadarTrans.position, Vector2.down);
+
+>>>>>>> 6bfd4af (Player Fatures V1.0)
         if( !Input.GetKey("d") && rb2d.velocity.x >= 1 ){
             rb2d.AddForce(new Vector2( -2f , 0f ));
         }

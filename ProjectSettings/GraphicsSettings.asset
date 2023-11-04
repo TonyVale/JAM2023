@@ -4,10 +4,14 @@
 GraphicsSettings:
   m_ObjectHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   serializedVersion: 15
 =======
   serializedVersion: 13
 >>>>>>> 2c2dc0e (first)
+=======
+  serializedVersion: 15
+>>>>>>> 6bfd4af (Player Fatures V1.0)
   m_Deferred:
     m_Mode: 1
     m_Shader: {fileID: 69, guid: 0000000000000000f000000000000000, type: 0}
@@ -18,11 +22,14 @@ GraphicsSettings:
     m_Mode: 1
     m_Shader: {fileID: 64, guid: 0000000000000000f000000000000000, type: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   m_LegacyDeferred:
     m_Mode: 1
     m_Shader: {fileID: 63, guid: 0000000000000000f000000000000000, type: 0}
 >>>>>>> 2c2dc0e (first)
+=======
+>>>>>>> 6bfd4af (Player Fatures V1.0)
   m_DepthNormals:
     m_Mode: 1
     m_Shader: {fileID: 62, guid: 0000000000000000f000000000000000, type: 0}
@@ -46,6 +53,7 @@ GraphicsSettings:
   - {fileID: 10783, guid: 0000000000000000f000000000000000, type: 0}
   m_PreloadedShaders: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_PreloadShadersBatchTimeLimit: -1
   m_SpritesDefaultMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_CustomRenderPipeline: {fileID: 11400000, guid: ffddb8ae2db8f134b9bbd3a4c5abac98, type: 2}
@@ -53,6 +61,11 @@ GraphicsSettings:
   m_SpritesDefaultMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_CustomRenderPipeline: {fileID: 0}
 >>>>>>> 2c2dc0e (first)
+=======
+  m_PreloadShadersBatchTimeLimit: -1
+  m_SpritesDefaultMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_CustomRenderPipeline: {fileID: 11400000, guid: ffddb8ae2db8f134b9bbd3a4c5abac98, type: 2}
+>>>>>>> 6bfd4af (Player Fatures V1.0)
   m_TransparencySortMode: 0
   m_TransparencySortAxis: {x: 0, y: 0, z: 1}
   m_DefaultRenderingPath: 1
@@ -62,9 +75,13 @@ GraphicsSettings:
   m_FogStripping: 0
   m_InstancingStripping: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_BrgStripping: 0
 =======
 >>>>>>> 2c2dc0e (first)
+=======
+  m_BrgStripping: 0
+>>>>>>> 6bfd4af (Player Fatures V1.0)
   m_LightmapKeepPlain: 1
   m_LightmapKeepDirCombined: 1
   m_LightmapKeepDynamicPlain: 1
@@ -75,6 +92,7 @@ GraphicsSettings:
   m_FogKeepExp: 1
   m_FogKeepExp2: 1
   m_AlbedoSwatchInfos: []
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_LightsUseLinearIntensity: 1
   m_LightsUseColorTemperature: 1
@@ -91,3 +109,14 @@ GraphicsSettings:
   m_DefaultRenderingLayerMask: 1
   m_LogWhenShaderIsCompiled: 0
 >>>>>>> 2c2dc0e (first)
+=======
+  m_LightsUseLinearIntensity: 1
+  m_LightsUseColorTemperature: 1
+  m_DefaultRenderingLayerMask: 1
+  m_LogWhenShaderIsCompiled: 0
+  m_SRPDefaultSettings:
+    UnityEngine.Rendering.Universal.UniversalRenderPipeline: {fileID: 11400000, guid: 922ded9a8ed50ef429f087743eaace1b, type: 2}
+  m_LightProbeOutsideHullStrategy: 0
+  m_CameraRelativeLightCulling: 0
+  m_CameraRelativeShadowCulling: 0
+>>>>>>> 6bfd4af (Player Fatures V1.0)
