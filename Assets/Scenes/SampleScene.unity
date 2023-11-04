@@ -266,7 +266,11 @@ PrefabInstance:
 =======
 --- !u!1 &1681997212
 GameObject:
+<<<<<<< HEAD
 >>>>>>> bf3754f (killplayer tag)
+=======
+>>>>>>> bf3754f6471e73c6a96023185438110457407737
+>>>>>>> 35d641026327acb88e19023093fedeb4ba387752
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -523,7 +527,11 @@ PrefabInstance:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 >>>>>>> bf3754f (killplayer tag)
+=======
+>>>>>>> bf3754f6471e73c6a96023185438110457407737
+>>>>>>> 35d641026327acb88e19023093fedeb4ba387752
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -534,4 +542,8 @@ SceneRoots:
   - {fileID: 1978959477355330270}
 =======
   - {fileID: 1681997215}
+<<<<<<< HEAD
 >>>>>>> bf3754f (killplayer tag)
+=======
+>>>>>>> bf3754f6471e73c6a96023185438110457407737
+>>>>>>> 35d641026327acb88e19023093fedeb4ba387752
