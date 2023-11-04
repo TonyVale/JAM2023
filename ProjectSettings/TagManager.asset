@@ -12,10 +12,13 @@ TagManager:
   - LevelSpawn
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - SceneChanger
 =======
 >>>>>>> d248b22 (merge attempt)
 =======
+=======
+>>>>>>> 9439097 (LevelConfig)
 =======
   tags: []
 >>>>>>> 2c2dc0e (first)
@@ -33,7 +36,12 @@ TagManager:
   tags:
   - KillPlayer
 >>>>>>> bf3754f (killplayer tag)
+<<<<<<< HEAD
 >>>>>>> 43a799a (killplayer tag)
+=======
+=======
+>>>>>>> 301665c (LevelConfig)
+>>>>>>> 9439097 (LevelConfig)
   layers:
   - Default
   - TransparentFX
