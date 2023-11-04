@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   tags:
   - KillPlayer
   - Level
@@ -25,7 +26,14 @@ TagManager:
   tags:
   - KillPlayer
 >>>>>>> f0a5d18 (killplayer tag)
+<<<<<<< HEAD
 >>>>>>> c14aa61 (killplayer tag)
+=======
+=======
+  tags:
+  - KillPlayer
+>>>>>>> bf3754f (killplayer tag)
+>>>>>>> 43a799a (killplayer tag)
   layers:
   - Default
   - TransparentFX

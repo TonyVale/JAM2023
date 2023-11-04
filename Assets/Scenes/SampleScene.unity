@@ -353,6 +353,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cfdac43 (Player Fatures V1.0)
 =======
@@ -416,6 +417,10 @@ GameObject:
 =======
 >>>>>>> bf3754f6471e73c6a96023185438110457407737
 >>>>>>> 35d641026327acb88e19023093fedeb4ba387752
+=======
+--- !u!1 &1681997212
+GameObject:
+>>>>>>> bf3754f (killplayer tag)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -505,6 +510,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681997212}
   serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Modification:
     serializedVersion: 3
@@ -666,6 +672,8 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: a1a9d90935d14af40a5233f61a6fb020, type: 3}
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> bf3754f (killplayer tag)
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.9616568, y: -0.100894906, z: 0}
 >>>>>>> d248b22 (merge attempt)
@@ -675,7 +683,10 @@ PrefabInstance:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 43a799a (killplayer tag)
 <<<<<<< HEAD
 >>>>>>> bf3754f (killplayer tag)
 =======
@@ -686,14 +697,22 @@ PrefabInstance:
 =======
 =======
 >>>>>>> cfdac43 (Player Fatures V1.0)
+<<<<<<< HEAD
 >>>>>>> 031a347 (Player Fatures V1.0)
+=======
+=======
+>>>>>>> bf3754f (killplayer tag)
+>>>>>>> 43a799a (killplayer tag)
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 43a799a (killplayer tag)
 <<<<<<< HEAD
   - {fileID: 1623845616493108443}
   - {fileID: 1978959477355330270}
@@ -1269,4 +1288,10 @@ SceneRoots:
 =======
 =======
 >>>>>>> cfdac43 (Player Fatures V1.0)
+<<<<<<< HEAD
 >>>>>>> 031a347 (Player Fatures V1.0)
+=======
+=======
+  - {fileID: 1681997215}
+>>>>>>> bf3754f (killplayer tag)
+>>>>>>> 43a799a (killplayer tag)
