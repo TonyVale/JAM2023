@@ -30,8 +30,11 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 66af076 (level prefab)
+=======
+>>>>>>> 20d29f3 (killplayer tag)
   m_LocalPosition: {x: 9.0412445, y: 0.13374925, z: -2}
   m_LocalScale: {x: 4, y: 9.5, z: 1}
   m_ConstrainProportionsScale: 0
@@ -54,7 +57,17 @@ Transform:
 >>>>>>> f0a5d18 (killplayer tag)
 =======
 >>>>>>> 8dd11ad (level prefab)
+<<<<<<< HEAD
 >>>>>>> 66af076 (level prefab)
+=======
+=======
+  m_LocalPosition: {x: 9.0412445, y: 0.13374925, z: -2}
+  m_LocalScale: {x: 4, y: 9.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2121828816955858624}
+>>>>>>> bf3754f (killplayer tag)
+>>>>>>> 20d29f3 (killplayer tag)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8520715867038036568
 SpriteRenderer:
@@ -181,8 +194,11 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 66af076 (level prefab)
+=======
+>>>>>>> 20d29f3 (killplayer tag)
   m_LocalPosition: {x: 0, y: 0, z: -0.03532781}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -210,7 +226,17 @@ Transform:
 >>>>>>> f0a5d18 (killplayer tag)
 =======
 >>>>>>> 8dd11ad (level prefab)
+<<<<<<< HEAD
 >>>>>>> 66af076 (level prefab)
+=======
+=======
+  m_LocalPosition: {x: 0, y: 0, z: -0.03532781}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2121828816955858624}
+>>>>>>> bf3754f (killplayer tag)
+>>>>>>> 20d29f3 (killplayer tag)
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2425987079225304314
@@ -242,8 +268,11 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 66af076 (level prefab)
+=======
+>>>>>>> 20d29f3 (killplayer tag)
   m_LocalPosition: {x: -4.865634, y: -0.21121025, z: 0}
   m_LocalScale: {x: 25, y: 12, z: 1}
   m_ConstrainProportionsScale: 0
@@ -266,7 +295,17 @@ Transform:
 >>>>>>> f0a5d18 (killplayer tag)
 =======
 >>>>>>> 8dd11ad (level prefab)
+<<<<<<< HEAD
 >>>>>>> 66af076 (level prefab)
+=======
+=======
+  m_LocalPosition: {x: -4.865634, y: -0.21121025, z: 0}
+  m_LocalScale: {x: 25, y: 12, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2121828816955858624}
+>>>>>>> bf3754f (killplayer tag)
+>>>>>>> 20d29f3 (killplayer tag)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3059951757637738217
 SpriteRenderer:
@@ -350,8 +389,11 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 66af076 (level prefab)
+=======
+>>>>>>> 20d29f3 (killplayer tag)
   m_LocalPosition: {x: -18.558756, y: 0.13374925, z: -2}
   m_LocalScale: {x: 4, y: 9.5, z: 1}
   m_ConstrainProportionsScale: 0
@@ -374,7 +416,17 @@ Transform:
 >>>>>>> f0a5d18 (killplayer tag)
 =======
 >>>>>>> 8dd11ad (level prefab)
+<<<<<<< HEAD
 >>>>>>> 66af076 (level prefab)
+=======
+=======
+  m_LocalPosition: {x: -18.558756, y: 0.13374925, z: -2}
+  m_LocalScale: {x: 4, y: 9.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2121828816955858624}
+>>>>>>> bf3754f (killplayer tag)
+>>>>>>> 20d29f3 (killplayer tag)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5924031168228099332
 SpriteRenderer:
@@ -503,8 +555,11 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 66af076 (level prefab)
+=======
+>>>>>>> 20d29f3 (killplayer tag)
   m_LocalPosition: {x: -4.8587556, y: 5.633749, z: -2}
   m_LocalScale: {x: 28, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
@@ -527,7 +582,17 @@ Transform:
 >>>>>>> f0a5d18 (killplayer tag)
 =======
 >>>>>>> 8dd11ad (level prefab)
+<<<<<<< HEAD
 >>>>>>> 66af076 (level prefab)
+=======
+=======
+  m_LocalPosition: {x: -4.8587556, y: 5.633749, z: -2}
+  m_LocalScale: {x: 28, y: 1.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2121828816955858624}
+>>>>>>> bf3754f (killplayer tag)
+>>>>>>> 20d29f3 (killplayer tag)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &444997401542599465
 SpriteRenderer:
@@ -656,8 +721,11 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 66af076 (level prefab)
+=======
+>>>>>>> 20d29f3 (killplayer tag)
   m_LocalPosition: {x: -4.8587556, y: -5.366251, z: -2}
   m_LocalScale: {x: 28, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
@@ -680,7 +748,17 @@ Transform:
 >>>>>>> f0a5d18 (killplayer tag)
 =======
 >>>>>>> 8dd11ad (level prefab)
+<<<<<<< HEAD
 >>>>>>> 66af076 (level prefab)
+=======
+=======
+  m_LocalPosition: {x: -4.8587556, y: -5.366251, z: -2}
+  m_LocalScale: {x: 28, y: 1.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2121828816955858624}
+>>>>>>> bf3754f (killplayer tag)
+>>>>>>> 20d29f3 (killplayer tag)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6037859575653257058
 SpriteRenderer:
@@ -808,8 +886,11 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 66af076 (level prefab)
+=======
+>>>>>>> 20d29f3 (killplayer tag)
   m_LocalPosition: {x: -4.7119555, y: -5.02121, z: -4.035328}
   m_LocalScale: {x: 24.13798, y: 1.6, z: 1}
   m_ConstrainProportionsScale: 0
@@ -832,7 +913,17 @@ Transform:
 >>>>>>> f0a5d18 (killplayer tag)
 =======
 >>>>>>> 8dd11ad (level prefab)
+<<<<<<< HEAD
 >>>>>>> 66af076 (level prefab)
+=======
+=======
+  m_LocalPosition: {x: -4.7119555, y: -5.02121, z: -4.035328}
+  m_LocalScale: {x: 24.13798, y: 1.6, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2121828816955858624}
+>>>>>>> bf3754f (killplayer tag)
+>>>>>>> 20d29f3 (killplayer tag)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6674309035391216649
 SpriteRenderer:
@@ -889,10 +980,15 @@ SpriteRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f0a5d18 (killplayer tag)
 =======
 >>>>>>> 66af076 (level prefab)
+=======
+=======
+>>>>>>> bf3754f (killplayer tag)
+>>>>>>> 20d29f3 (killplayer tag)
 --- !u!1 &9146284148227649412
 GameObject:
   m_ObjectHideFlags: 0
@@ -932,6 +1028,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0811b38 (level prefab)
 =======
@@ -940,3 +1037,9 @@ Transform:
 =======
 >>>>>>> 8dd11ad (level prefab)
 >>>>>>> 66af076 (level prefab)
+=======
+=======
+>>>>>>> 8dd11ad (level prefab)
+=======
+>>>>>>> bf3754f (killplayer tag)
+>>>>>>> 20d29f3 (killplayer tag)
