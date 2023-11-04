@@ -57,8 +57,12 @@
         "Temp/": true
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     "dotnet.defaultSolution": "JAM2023.sln"
 =======
     "dotnet.defaultSolution": "JAM2023-2.sln"
 >>>>>>> d248b22 (merge attempt)
+=======
+    "dotnet.defaultSolution": "JAM2023.sln"
+>>>>>>> e1cca27 (Anto Confirm Pull and push to main)
 }
