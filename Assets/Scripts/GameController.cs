@@ -21,11 +21,6 @@ public class GameController : MonoBehaviour
     /// </summary>
     void Awake(){
 
-        SpawnPointLevels = GameObject.FindGameObjectsWithTag("LevelSpawn");
-        for(int i=0 ; i < Levels.Length ; i++)
-            Instantiate(Levels[i], SpawnPointLevels[i].GetComponent<Transform>());
-
-        Debug.Log("Ok");
         SpawnPoint = GameObject.FindGameObjectsWithTag("Respawn");
     }
     // Start is called before the first frame update
@@ -43,8 +38,9 @@ public class GameController : MonoBehaviour
         }
         if(GameObject.FindGameObjectsWithTag("Player").Length == 1){
             Player = GameObject.FindGameObjectsWithTag("Player")[0];
-            Cam.GetComponent<Transform>().position = UnityEngine.Vector3.SmoothDamp(Cam.GetComponent<Transform>().position, Player.GetComponent<Transform>().position + new UnityEngine.Vector3(0,3,-1), ref CamVel, 0.5f );
+            Cam.GetComponent<Transform>().position = UnityEngine.Vector3.SmoothDamp(Cam.GetComponent<Transform>().position, Player.GetComponent<Transform>().position + new UnityEngine.Vector3(0,2,-1), ref CamVel, 0.5f );
 
         }
     }
 }
+ 
