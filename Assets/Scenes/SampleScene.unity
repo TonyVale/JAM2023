@@ -280,7 +280,11 @@ PrefabInstance:
 =======
 --- !u!1 &1681997212
 GameObject:
+<<<<<<< HEAD
 >>>>>>> bf3754f (killplayer tag)
+=======
+>>>>>>> bf3754f6471e73c6a96023185438110457407737
+>>>>>>> 35d641026327acb88e19023093fedeb4ba387752
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -672,13 +676,19 @@ PrefabInstance:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bf3754f (killplayer tag)
 =======
 >>>>>>> 8dd11ad (level prefab)
 =======
 >>>>>>> cfdac43 (Player Fatures V1.0)
 =======
+=======
+>>>>>>> 3c908c6c93edb7cae4753ebfeafe79e72ee440b7
 >>>>>>> bf3754f (killplayer tag)
+=======
+>>>>>>> bf3754f6471e73c6a96023185438110457407737
+>>>>>>> 35d641026327acb88e19023093fedeb4ba387752
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -700,4 +710,8 @@ SceneRoots:
 >>>>>>> cfdac43 (Player Fatures V1.0)
 =======
   - {fileID: 1681997215}
+<<<<<<< HEAD
 >>>>>>> bf3754f (killplayer tag)
+=======
+>>>>>>> bf3754f6471e73c6a96023185438110457407737
+>>>>>>> 35d641026327acb88e19023093fedeb4ba387752
