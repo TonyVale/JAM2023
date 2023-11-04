@@ -9,6 +9,7 @@ EditorBuildSettings:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     path: Assets/Scenes/Second Loop.unity
 =======
     path: Assets/Scenes/First Loop.unity
@@ -16,6 +17,8 @@ EditorBuildSettings:
 =======
 =======
 >>>>>>> 4746787 (Niveles 1 y 2)
+=======
+>>>>>>> 4d978c0 (Scene 2)
     path: Assets/Scenes/First Loop.unity
 =======
     path: Assets/Scenes/SampleScene.unity
@@ -26,6 +29,12 @@ EditorBuildSettings:
 =======
     path: Assets/Scenes/First Loop.unity
 >>>>>>> e1c75f2 (Niveles 1 y 2)
+<<<<<<< HEAD
 >>>>>>> 4746787 (Niveles 1 y 2)
+=======
+=======
+    path: Assets/Scenes/Second Loop.unity
+>>>>>>> 8e9ff6d (Scene 2)
+>>>>>>> 4d978c0 (Scene 2)
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

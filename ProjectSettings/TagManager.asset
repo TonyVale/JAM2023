@@ -13,12 +13,15 @@ TagManager:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - SceneChanger
 =======
 >>>>>>> d248b22 (merge attempt)
 =======
 =======
 >>>>>>> 9439097 (LevelConfig)
+=======
+>>>>>>> 4d978c0 (Scene 2)
 =======
   tags: []
 >>>>>>> 2c2dc0e (first)
@@ -41,7 +44,13 @@ TagManager:
 =======
 =======
 >>>>>>> 301665c (LevelConfig)
+<<<<<<< HEAD
 >>>>>>> 9439097 (LevelConfig)
+=======
+=======
+  - SceneChanger
+>>>>>>> 8e9ff6d (Scene 2)
+>>>>>>> 4d978c0 (Scene 2)
   layers:
   - Default
   - TransparentFX

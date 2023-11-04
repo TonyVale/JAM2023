@@ -26,10 +26,14 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 50, y: 0, z: -0.022162106}
 =======
   m_LocalPosition: {x: 51.92, y: 0, z: -0.022162106}
 >>>>>>> d248b22 (merge attempt)
+=======
+  m_LocalPosition: {x: 50, y: 0, z: -0.022162106}
+>>>>>>> 4d978c0 (Scene 2)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -40,9 +44,13 @@ Transform:
   - {fileID: 4802501177394353691}
   - {fileID: 6254652065352139112}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 3766815021449354191}
 =======
 >>>>>>> d248b22 (merge attempt)
+=======
+  - {fileID: 3766815021449354191}
+>>>>>>> 4d978c0 (Scene 2)
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3922845048356057759
@@ -642,6 +650,9 @@ BoxCollider2D:
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d978c0 (Scene 2)
 --- !u!1 &8961199980909989641
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,5 +737,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 =======
 >>>>>>> d248b22 (merge attempt)
+=======
+>>>>>>> 4d978c0 (Scene 2)
