@@ -1,9 +1,24 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: a1a9d90935d14af40a5233f61a6fb020
 =======
 guid: 8b000a4f1deed4c49b63b32c01274028
 >>>>>>> d248b22 (merge attempt)
+=======
+guid: 8b000a4f1deed4c49b63b32c01274028
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+guid: 06180ea12330ed746bc22a7fe853c7fe
+=======
+guid: a1a9d90935d14af40a5233f61a6fb020
+>>>>>>> 6bfd4af (Player Fatures V1.0)
+=======
+guid: a1a9d90935d14af40a5233f61a6fb020
+>>>>>>> cfdac43 (Player Fatures V1.0)
+>>>>>>> 0b14882 (Player Finish)
+>>>>>>> 024019d (Player Finish)
 PrefabImporter:
   externalObjects: {}
   userData: 

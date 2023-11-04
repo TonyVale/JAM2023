@@ -17,6 +17,7 @@ public class Movment : MonoBehaviour
 
     Rigidbody2D rb2d;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     Transform trans;
 >>>>>>> cfdac43 (Player Fatures V1.0)
@@ -49,6 +50,8 @@ public class Movment : MonoBehaviour
 
     Rigidbody2D rb2d;
     Transform trans;
+=======
+>>>>>>> 0b14882 (Player Finish)
     Transform DownCollitionRadarTrans;
 
     public int watherCharge;
@@ -60,6 +63,7 @@ public class Movment : MonoBehaviour
     public int MaxJumpVelocity;
     public GameObject DownCollitionRadar;
     public GameObject Water;
+    
 
     RaycastHit2D _hit;
 >>>>>>> 6bfd4af (Player Fatures V1.0)
@@ -71,6 +75,7 @@ public class Movment : MonoBehaviour
     /// Awake is called when the script instance is being loaded.
     /// </summary>
     void Awake(){
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -100,8 +105,10 @@ public class Movment : MonoBehaviour
             rb2d.AddForce(new Vector2( -100f , 0f ));
         }
 =======
+=======
+
+>>>>>>> 0b14882 (Player Finish)
         rb2d = GetComponent<Rigidbody2D>();
-        trans = GetComponent<Transform>();
         DownCollitionRadarTrans = DownCollitionRadar.GetComponent<Transform>();
         
     }
@@ -113,7 +120,19 @@ public class Movment : MonoBehaviour
 
     void FixedUpdate(){
 
+<<<<<<< HEAD
 >>>>>>> 04d7f84 (movment first commi)
+=======
+        //movment
+
+
+        if(Input.GetKeyDown("d") && rb2d.velocity.x < 6){
+            rb2d.AddForce(new Vector2( 100f , 0f ));
+        }
+        if(Input.GetKeyDown("a") && rb2d.velocity.x > -6){
+            rb2d.AddForce(new Vector2( -100f , 0f ));
+        }
+>>>>>>> 0b14882 (Player Finish)
         if(Input.GetKey("d")){            
             rb2d.AddForce(new Vector2( 10f , 0f ));
             if(rb2d.velocity.x > 6 ){
@@ -166,11 +185,16 @@ public class Movment : MonoBehaviour
 =======
 >>>>>>> cfdac43 (Player Fatures V1.0)
             watherCharge--;
-            //Draw2DRay(trans.position, Vector2.down * _hit.distance);
+            
         }
-        Debug.Log(_hit.distance);
+
+        if(Input.GetKey("r")){
+            GetComponent<KillPlayer>().enabled = true;
+        }
 
     }
+
+    
 
     void Update(){
 <<<<<<< HEAD
@@ -195,6 +219,9 @@ public class Movment : MonoBehaviour
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0b14882 (Player Finish)
 
     private void OnCollisionEnter2D(Collision2D collision) {
         
@@ -204,6 +231,9 @@ public class Movment : MonoBehaviour
     }
 
 
+<<<<<<< HEAD
 =======
 >>>>>>> 04d7f84 (movment first commi)
+=======
+>>>>>>> 0b14882 (Player Finish)
 }

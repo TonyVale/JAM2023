@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using System.Numerics;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
@@ -57,23 +58,52 @@ public class GameController : MonoBehaviour
 =======
 =======
 =======
+=======
+using System.Numerics;
+>>>>>>> 0b14882 (Player Finish)
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 public class GameController : MonoBehaviour
 {
+    public bool RespawnEnabled; 
+    public GameObject PlayerPrefab;
+    GameObject Player;
+    GameObject[] SpawnPoint;
+    
+    private UnityEngine.Vector3 CamVel = new UnityEngine.Vector3(10,10,0);
+    public GameObject Cam;
+    /// <summary>
+    /// Awake is called when the script instance is being loaded.
+    /// </summary>
+    void Awake(){
+
+        RespawnEnabled = false;
+        SpawnPoint = GameObject.FindGameObjectsWithTag("Respawn");
+        
+    }
     // Start is called before the first frame update
+<<<<<<< HEAD
     void Start()
     {
 >>>>>>> 04d7f84 (movment first commi)
+<<<<<<< HEAD
 >>>>>>> f7c7bb8 (movment first commi)
+=======
+=======
+    void Start(){
+>>>>>>> 0b14882 (Player Finish)
+>>>>>>> 024019d (Player Finish)
         
 >>>>>>> d248b22 (merge attempt)
     }
 
     // Update is called once per frame
 <<<<<<< HEAD
+<<<<<<< HEAD
     void Update(){
         
+<<<<<<< HEAD
 <<<<<<< HEAD
         LavaDoorTimer -= Time.deltaTime;
 
@@ -82,6 +112,11 @@ public class GameController : MonoBehaviour
             LavaDoorL.GetComponent<Transform>().position = UnityEngine.Vector3.SmoothDamp(LavaDoorL.GetComponent<Transform>().position, AuxDoor2 - new UnityEngine.Vector3(4,0,0), ref doorsVel, 0.05f );
         }
 
+=======
+=======
+    void Update(){
+>>>>>>> 0b14882 (Player Finish)
+>>>>>>> 024019d (Player Finish)
         if(Input.GetKey("space")){
             if(GameObject.FindGameObjectsWithTag("Player").Length == 0){
                 LavaDoorTimer = timerAux;
@@ -97,12 +132,15 @@ public class GameController : MonoBehaviour
         if(GameObject.FindGameObjectsWithTag("Player").Length == 1){
             Player = GameObject.FindGameObjectsWithTag("Player")[0];
 <<<<<<< HEAD
+<<<<<<< HEAD
             Cam.GetComponent<Transform>().position = UnityEngine.Vector3.SmoothDamp(Cam.GetComponent<Transform>().position, Player.GetComponent<Transform>().position + new UnityEngine.Vector3(0,2,-1), ref CamVel, 0.1f );
         }
 
         
 
 =======
+=======
+>>>>>>> 024019d (Player Finish)
             Cam.GetComponent<Transform>().position = UnityEngine.Vector3.SmoothDamp(Cam.GetComponent<Transform>().position, Player.GetComponent<Transform>().position + new UnityEngine.Vector3(0,2,-1), ref CamVel, 0.5f );
 
         }
@@ -114,6 +152,10 @@ public class GameController : MonoBehaviour
     void Update()
     {
         
+=======
+            Cam.GetComponent<Transform>().position = UnityEngine.Vector3.SmoothDamp(Cam.GetComponent<Transform>().position, Player.GetComponent<Transform>().position + new UnityEngine.Vector3(0,0,-1), ref CamVel, 0.5f );
+        }
+>>>>>>> 0b14882 (Player Finish)
     }
 }
 >>>>>>> 04d7f84 (movment first commi)
