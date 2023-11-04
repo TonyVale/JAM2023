@@ -10,6 +10,9 @@ public class GameController : MonoBehaviour
     public GameObject PlayerPrefab;
     GameObject Player;
     GameObject[] SpawnPoint;
+    GameObject[] SpawnPointLevels;
+
+    public GameObject[] Levels;
     
     private UnityEngine.Vector3 CamVel = new UnityEngine.Vector3(10,10,0);
     public GameObject Cam;
@@ -18,9 +21,12 @@ public class GameController : MonoBehaviour
     /// </summary>
     void Awake(){
 
-        RespawnEnabled = false;
+        SpawnPointLevels = GameObject.FindGameObjectsWithTag("LevelSpawn");
+        for(int i=0 ; i < Levels.Length ; i++)
+            Instantiate(Levels[i], SpawnPointLevels[i].GetComponent<Transform>());
+
+        Debug.Log("Ok");
         SpawnPoint = GameObject.FindGameObjectsWithTag("Respawn");
-        
     }
     // Start is called before the first frame update
     void Start(){
@@ -29,6 +35,7 @@ public class GameController : MonoBehaviour
 
     // Update is called once per frame
     void Update(){
+        
         if(Input.GetKey("space")){
             if(GameObject.FindGameObjectsWithTag("Player").Length == 0){
                 Player = Instantiate(PlayerPrefab, SpawnPoint[0].GetComponent<Transform>());
@@ -36,7 +43,8 @@ public class GameController : MonoBehaviour
         }
         if(GameObject.FindGameObjectsWithTag("Player").Length == 1){
             Player = GameObject.FindGameObjectsWithTag("Player")[0];
-            Cam.GetComponent<Transform>().position = UnityEngine.Vector3.SmoothDamp(Cam.GetComponent<Transform>().position, Player.GetComponent<Transform>().position + new UnityEngine.Vector3(0,0,-1), ref CamVel, 0.5f );
+            Cam.GetComponent<Transform>().position = UnityEngine.Vector3.SmoothDamp(Cam.GetComponent<Transform>().position, Player.GetComponent<Transform>().position + new UnityEngine.Vector3(0,3,-1), ref CamVel, 0.5f );
+
         }
     }
 }
