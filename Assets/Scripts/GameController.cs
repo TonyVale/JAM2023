@@ -6,12 +6,16 @@ using UnityEngine.PlayerLoop;
 
 public class GameController : MonoBehaviour
 {
+<<<<<<< HEAD
     float timerAux;
     public float LavaDoorTimer;
+=======
+>>>>>>> d248b22 (merge attempt)
     public bool RespawnEnabled; 
     public GameObject PlayerPrefab;
     GameObject Player;
     GameObject[] SpawnPoint;
+<<<<<<< HEAD
     
     public GameObject LavaDoorL;
     public GameObject LavaDoorR;
@@ -23,23 +27,40 @@ public class GameController : MonoBehaviour
     public GameObject Cam;
 
     private UnityEngine.Vector3 doorsVel = UnityEngine.Vector3.zero; 
+=======
+    GameObject[] SpawnPointLevels;
+
+    public GameObject[] Levels;
+    
+    private UnityEngine.Vector3 CamVel = new UnityEngine.Vector3(10,10,0);
+    public GameObject Cam;
+>>>>>>> d248b22 (merge attempt)
     /// <summary>
     /// Awake is called when the script instance is being loaded.
     /// </summary>
     void Awake(){
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> d248b22 (merge attempt)
         SpawnPoint = GameObject.FindGameObjectsWithTag("Respawn");
     }
     // Start is called before the first frame update
     void Start(){
+<<<<<<< HEAD
         timerAux = LavaDoorTimer;
         AuxDoor1 = LavaDoorR.GetComponent<Transform>().position;
         AuxDoor2 = LavaDoorL.GetComponent<Transform>().position;
+=======
+        
+>>>>>>> d248b22 (merge attempt)
     }
 
     // Update is called once per frame
     void Update(){
         
+<<<<<<< HEAD
         LavaDoorTimer -= Time.deltaTime;
 
         if(LavaDoorTimer<= 0.0f){
@@ -52,16 +73,26 @@ public class GameController : MonoBehaviour
                 LavaDoorTimer = timerAux;
                 LavaDoorR.GetComponent<Transform>().position = AuxDoor1;
                 LavaDoorL.GetComponent<Transform>().position = AuxDoor2;
+=======
+        if(Input.GetKey("space")){
+            if(GameObject.FindGameObjectsWithTag("Player").Length == 0){
+>>>>>>> d248b22 (merge attempt)
                 Player = Instantiate(PlayerPrefab, SpawnPoint[0].GetComponent<Transform>());
             }
         }
         if(GameObject.FindGameObjectsWithTag("Player").Length == 1){
             Player = GameObject.FindGameObjectsWithTag("Player")[0];
+<<<<<<< HEAD
             Cam.GetComponent<Transform>().position = UnityEngine.Vector3.SmoothDamp(Cam.GetComponent<Transform>().position, Player.GetComponent<Transform>().position + new UnityEngine.Vector3(0,2,-1), ref CamVel, 0.1f );
         }
 
         
 
+=======
+            Cam.GetComponent<Transform>().position = UnityEngine.Vector3.SmoothDamp(Cam.GetComponent<Transform>().position, Player.GetComponent<Transform>().position + new UnityEngine.Vector3(0,2,-1), ref CamVel, 0.5f );
+
+        }
+>>>>>>> d248b22 (merge attempt)
     }
 }
  
