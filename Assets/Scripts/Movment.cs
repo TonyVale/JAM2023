@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cfdac43 (Player Fatures V1.0)
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -13,6 +16,10 @@ public class Movment : MonoBehaviour
 {
 
     Rigidbody2D rb2d;
+<<<<<<< HEAD
+=======
+    Transform trans;
+>>>>>>> cfdac43 (Player Fatures V1.0)
     Transform DownCollitionRadarTrans;
 
     public int watherCharge;
@@ -21,6 +28,7 @@ public class Movment : MonoBehaviour
     public int MaxJumpVelocity;
     public GameObject DownCollitionRadar;
     public GameObject Water;
+<<<<<<< HEAD
     
 
     RaycastHit2D _hit;
@@ -55,13 +63,22 @@ public class Movment : MonoBehaviour
 
     RaycastHit2D _hit;
 >>>>>>> 6bfd4af (Player Fatures V1.0)
+=======
+
+    RaycastHit2D _hit;
+>>>>>>> cfdac43 (Player Fatures V1.0)
     /// <summary>
     /// Awake is called when the script instance is being loaded.
     /// </summary>
     void Awake(){
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         rb2d = GetComponent<Rigidbody2D>();
+=======
+        rb2d = GetComponent<Rigidbody2D>();
+        trans = GetComponent<Transform>();
+>>>>>>> cfdac43 (Player Fatures V1.0)
         DownCollitionRadarTrans = DownCollitionRadar.GetComponent<Transform>();
         
     }
@@ -113,12 +130,16 @@ public class Movment : MonoBehaviour
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6bfd4af (Player Fatures V1.0)
+=======
+>>>>>>> cfdac43 (Player Fatures V1.0)
         if(Input.GetKey("space") && _hit.distance <= MaxFloorHeight && watherCharge >= 0 && rb2d.velocity.y <= MaxJumpVelocity ){
             
             Instantiate(Water, DownCollitionRadarTrans);
             rb2d.AddForce(new Vector2( 0f , watherPower ));
+<<<<<<< HEAD
 <<<<<<< HEAD
             watherCharge--;
             
@@ -142,6 +163,8 @@ public class Movment : MonoBehaviour
             rb2d.AddForce(new Vector2( 0f , watherPower));
 =======
 >>>>>>> 6bfd4af (Player Fatures V1.0)
+=======
+>>>>>>> cfdac43 (Player Fatures V1.0)
             watherCharge--;
             //Draw2DRay(trans.position, Vector2.down * _hit.distance);
         }
@@ -152,13 +175,19 @@ public class Movment : MonoBehaviour
 
     void Update(){
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 04d7f84 (movment first commi)
 =======
+=======
+>>>>>>> cfdac43 (Player Fatures V1.0)
 
         
         _hit = Physics2D.Raycast(DownCollitionRadarTrans.position, Vector2.down);
 
+<<<<<<< HEAD
 >>>>>>> 6bfd4af (Player Fatures V1.0)
+=======
+>>>>>>> cfdac43 (Player Fatures V1.0)
         if( !Input.GetKey("d") && rb2d.velocity.x >= 1 ){
             rb2d.AddForce(new Vector2( -2f , 0f ));
         }
