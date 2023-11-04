@@ -168,7 +168,6 @@ public class Movment : MonoBehaviour
             watherCharge--;
             //Draw2DRay(trans.position, Vector2.down * _hit.distance);
         }
-        Debug.Log(_hit.collider.name);
         Debug.Log(_hit.distance);
 
     }
