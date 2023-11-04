@@ -81,11 +81,6 @@ public class GameController : MonoBehaviour
     /// </summary>
     void Awake(){
 
-        SpawnPointLevels = GameObject.FindGameObjectsWithTag("LevelSpawn");
-        for(int i=0 ; i < Levels.Length ; i++)
-            Instantiate(Levels[i], SpawnPointLevels[i].GetComponent<Transform>());
-
-        Debug.Log("Ok");
         SpawnPoint = GameObject.FindGameObjectsWithTag("Respawn");
     }
     // Start is called before the first frame update
@@ -148,6 +143,7 @@ public class GameController : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Cam.GetComponent<Transform>().position = UnityEngine.Vector3.SmoothDamp(Cam.GetComponent<Transform>().position, Player.GetComponent<Transform>().position + new UnityEngine.Vector3(0,2,-1), ref CamVel, 0.1f );
         }
 
@@ -158,15 +154,21 @@ public class GameController : MonoBehaviour
 >>>>>>> 024019d (Player Finish)
 =======
 >>>>>>> 9439097 (LevelConfig)
+=======
+>>>>>>> 4746787 (Niveles 1 y 2)
             Cam.GetComponent<Transform>().position = UnityEngine.Vector3.SmoothDamp(Cam.GetComponent<Transform>().position, Player.GetComponent<Transform>().position + new UnityEngine.Vector3(0,2,-1), ref CamVel, 0.5f );
 =======
             Cam.GetComponent<Transform>().position = UnityEngine.Vector3.SmoothDamp(Cam.GetComponent<Transform>().position, Player.GetComponent<Transform>().position + new UnityEngine.Vector3(0,3,-1), ref CamVel, 0.5f );
 >>>>>>> 301665c (LevelConfig)
+=======
+            Cam.GetComponent<Transform>().position = UnityEngine.Vector3.SmoothDamp(Cam.GetComponent<Transform>().position, Player.GetComponent<Transform>().position + new UnityEngine.Vector3(0,2,-1), ref CamVel, 0.5f );
+>>>>>>> e1c75f2 (Niveles 1 y 2)
 
         }
 >>>>>>> d248b22 (merge attempt)
     }
 }
+<<<<<<< HEAD
  
 =======
     void Update()
@@ -179,3 +181,6 @@ public class GameController : MonoBehaviour
     }
 }
 >>>>>>> 04d7f84 (movment first commi)
+=======
+ 
+>>>>>>> e1c75f2 (Niveles 1 y 2)

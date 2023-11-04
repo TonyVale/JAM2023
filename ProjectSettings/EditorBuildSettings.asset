@@ -8,15 +8,24 @@ EditorBuildSettings:
   - enabled: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     path: Assets/Scenes/Second Loop.unity
 =======
     path: Assets/Scenes/First Loop.unity
 >>>>>>> d248b22 (merge attempt)
 =======
+=======
+>>>>>>> 4746787 (Niveles 1 y 2)
     path: Assets/Scenes/First Loop.unity
 =======
     path: Assets/Scenes/SampleScene.unity
 >>>>>>> 2c2dc0e (first)
+<<<<<<< HEAD
 >>>>>>> 9acd7fc (first)
+=======
+=======
+    path: Assets/Scenes/First Loop.unity
+>>>>>>> e1c75f2 (Niveles 1 y 2)
+>>>>>>> 4746787 (Niveles 1 y 2)
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

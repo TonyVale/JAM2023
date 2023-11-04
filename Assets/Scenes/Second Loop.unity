@@ -195,6 +195,7 @@ PrefabInstance:
     - target: {fileID: 3770937121620865240, guid: af722ac1292c4c4418d0c0c18107781d, type: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       propertyPath: LavaDoorL
       value: 
       objectReference: {fileID: 161118049}
@@ -203,6 +204,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 284030978}
 =======
+=======
+>>>>>>> 4746787 (Niveles 1 y 2)
       propertyPath: LavaDoorL
       value: 
       objectReference: {fileID: 0}
@@ -243,7 +246,15 @@ PrefabInstance:
       propertyPath: LavaDoor.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+<<<<<<< HEAD
 >>>>>>> e1cca27 (Anto Confirm Pull and push to main)
+=======
+=======
+      propertyPath: PlayerPrefab
+      value: 
+      objectReference: {fileID: 4280732797503109615, guid: a1a9d90935d14af40a5233f61a6fb020, type: 3}
+>>>>>>> e1c75f2 (Niveles 1 y 2)
+>>>>>>> 4746787 (Niveles 1 y 2)
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -313,6 +324,7 @@ Camera:
   orthographic: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   orthographic size: 6
 =======
   orthographic size: 5
@@ -320,6 +332,12 @@ Camera:
 =======
   orthographic size: 6
 >>>>>>> e1cca27 (Anto Confirm Pull and push to main)
+=======
+  orthographic size: 6
+=======
+  orthographic size: 5
+>>>>>>> e1c75f2 (Niveles 1 y 2)
+>>>>>>> 4746787 (Niveles 1 y 2)
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -396,6 +414,7 @@ MonoBehaviour:
     contrastAdaptiveSharpening: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1410189126
 =======
 --- !u!1001 &1181895897
@@ -403,6 +422,12 @@ MonoBehaviour:
 =======
 --- !u!1001 &1410189126
 >>>>>>> e1cca27 (Anto Confirm Pull and push to main)
+=======
+--- !u!1001 &1410189126
+=======
+--- !u!1001 &1181895897
+>>>>>>> e1c75f2 (Niveles 1 y 2)
+>>>>>>> 4746787 (Niveles 1 y 2)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -452,8 +477,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e1cca27 (Anto Confirm Pull and push to main)
+=======
+>>>>>>> 4746787 (Niveles 1 y 2)
     - target: {fileID: 7890279370422724379, guid: e395006fd4031244382ce04cccbceacb, type: 3}
       propertyPath: m_LocalScale.x
       value: 60.42019
@@ -467,10 +495,15 @@ PrefabInstance:
       value: -7
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d248b22 (merge attempt)
 =======
 >>>>>>> e1cca27 (Anto Confirm Pull and push to main)
+=======
+=======
+>>>>>>> e1c75f2 (Niveles 1 y 2)
+>>>>>>> 4746787 (Niveles 1 y 2)
     - target: {fileID: 8433032152869057675, guid: e395006fd4031244382ce04cccbceacb, type: 3}
       propertyPath: m_Name
       value: Csa
@@ -482,6 +515,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: e395006fd4031244382ce04cccbceacb, type: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1507303875
 =======
 --- !u!1001 &1790100377
@@ -489,6 +523,12 @@ PrefabInstance:
 =======
 --- !u!1001 &1507303875
 >>>>>>> e1cca27 (Anto Confirm Pull and push to main)
+=======
+--- !u!1001 &1507303875
+=======
+--- !u!1001 &1790100377
+>>>>>>> e1c75f2 (Niveles 1 y 2)
+>>>>>>> 4746787 (Niveles 1 y 2)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -547,6 +587,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: b691c8eb54a20464b8c35a246ae92f18, type: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1597006105
 =======
 --- !u!1001 &2104906145
@@ -554,6 +595,12 @@ PrefabInstance:
 =======
 --- !u!1001 &1597006105
 >>>>>>> e1cca27 (Anto Confirm Pull and push to main)
+=======
+--- !u!1001 &1597006105
+=======
+--- !u!1001 &2104906145
+>>>>>>> e1c75f2 (Niveles 1 y 2)
+>>>>>>> 4746787 (Niveles 1 y 2)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -565,6 +612,7 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 52
 =======
       value: 50
@@ -572,6 +620,12 @@ PrefabInstance:
 =======
       value: 52
 >>>>>>> e1cca27 (Anto Confirm Pull and push to main)
+=======
+      value: 52
+=======
+      value: 50
+>>>>>>> e1c75f2 (Niveles 1 y 2)
+>>>>>>> 4746787 (Niveles 1 y 2)
       objectReference: {fileID: 0}
     - target: {fileID: 1842219049628179675, guid: 48a009834f44bf941b53d62db0ca7791, type: 3}
       propertyPath: m_LocalPosition.y
@@ -626,6 +680,9 @@ SceneRoots:
   - {fileID: 422280429}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4746787 (Niveles 1 y 2)
   - {fileID: 1410189126}
   - {fileID: 1597006105}
   - {fileID: 1507303875}
@@ -633,9 +690,13 @@ SceneRoots:
   - {fileID: 1181895897}
   - {fileID: 1790100377}
   - {fileID: 2104906145}
+<<<<<<< HEAD
 >>>>>>> d248b22 (merge attempt)
 =======
   - {fileID: 1410189126}
   - {fileID: 1597006105}
   - {fileID: 1507303875}
 >>>>>>> e1cca27 (Anto Confirm Pull and push to main)
+=======
+>>>>>>> e1c75f2 (Niveles 1 y 2)
+>>>>>>> 4746787 (Niveles 1 y 2)
