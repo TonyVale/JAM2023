@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 6467251289415453554}
   - component: {fileID: 5187257023800588371}
   - component: {fileID: 9008659785275126929}
+  - component: {fileID: -678769531736424289}
   m_Layer: 0
-  m_Name: Square
-  m_TagString: Untagged
+  m_Name: Player
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -159,7 +160,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &9008659785275126929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,13 +173,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fafb593a489d7824594b38bc3ed1127f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_lineRenderer: {fileID: 0}
-  watherCharge: 2000
+  watherCharge: 200
   watherPower: 16
   MaxFloorHeight: 5
   MaxJumpVelocity: 6
   DownCollitionRadar: {fileID: 7115714682168131302}
   Water: {fileID: 3883549607278704644, guid: 3cc4cf39224871247910d09fa14cf912, type: 3}
+--- !u!114 &-678769531736424289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4280732797503109615}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa644842d26598459ccfd3e8374d88e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cir: {fileID: 6341068785919477559, guid: 2df87245c67cc034e825fa0867f418e5, type: 3}
 --- !u!1 &7115714682168131302
 GameObject:
   m_ObjectHideFlags: 0

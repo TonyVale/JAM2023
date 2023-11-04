@@ -11,7 +11,6 @@ public class Movment : MonoBehaviour
 {
 
     Rigidbody2D rb2d;
-    Transform trans;
     Transform DownCollitionRadarTrans;
 
     public int watherCharge;
@@ -20,14 +19,15 @@ public class Movment : MonoBehaviour
     public int MaxJumpVelocity;
     public GameObject DownCollitionRadar;
     public GameObject Water;
+    
 
     RaycastHit2D _hit;
     /// <summary>
     /// Awake is called when the script instance is being loaded.
     /// </summary>
     void Awake(){
+
         rb2d = GetComponent<Rigidbody2D>();
-        trans = GetComponent<Transform>();
         DownCollitionRadarTrans = DownCollitionRadar.GetComponent<Transform>();
         
     }
@@ -39,6 +39,15 @@ public class Movment : MonoBehaviour
 
     void FixedUpdate(){
 
+        //movment
+
+
+        if(Input.GetKeyDown("d") && rb2d.velocity.x < 6){
+            rb2d.AddForce(new Vector2( 100f , 0f ));
+        }
+        if(Input.GetKeyDown("a") && rb2d.velocity.x > -6){
+            rb2d.AddForce(new Vector2( -100f , 0f ));
+        }
         if(Input.GetKey("d")){            
             rb2d.AddForce(new Vector2( 10f , 0f ));
             if(rb2d.velocity.x > 6 ){
@@ -58,11 +67,16 @@ public class Movment : MonoBehaviour
             Instantiate(Water, DownCollitionRadarTrans);
             rb2d.AddForce(new Vector2( 0f , watherPower ));
             watherCharge--;
-            //Draw2DRay(trans.position, Vector2.down * _hit.distance);
+            
         }
-        Debug.Log(_hit.distance);
+
+        if(Input.GetKey("r")){
+            GetComponent<KillPlayer>().enabled = true;
+        }
 
     }
+
+    
 
     void Update(){
 
@@ -76,4 +90,13 @@ public class Movment : MonoBehaviour
             rb2d.AddForce(new Vector2( 2f , 0f ));
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision) {
+        
+        if(collision.gameObject.tag == "KillPlayer"){
+            GetComponent<KillPlayer>().enabled = true ;
+        }
+    }
+
+
 }
