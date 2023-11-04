@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - KillPlayer
+  - Filter
   layers:
   - Default
   - TransparentFX
