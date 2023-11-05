@@ -7,6 +7,10 @@ TagManager:
   - KillPlayer
   - Level
   - LevelSpawn
+  - Filter
+  - ChargeBar
+  - Fuego
+  - NextScene
   layers:
   - Default
   - TransparentFX

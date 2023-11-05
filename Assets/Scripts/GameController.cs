@@ -22,6 +22,9 @@ public class GameController : MonoBehaviour
     private UnityEngine.Vector3 CamVel = new UnityEngine.Vector3(10,10,0);
     public GameObject Cam;
 
+    public AudioSource inicio;
+    public AudioSource Bucle;
+
     private UnityEngine.Vector3 doorsVel = UnityEngine.Vector3.zero; 
     /// <summary>
     /// Awake is called when the script instance is being loaded.
@@ -40,6 +43,12 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update(){
         
+        if(inicio.isPlaying == false && Bucle.isPlaying == false){
+            Debug.Log("Not Playing");
+            Bucle.Play();
+            Bucle.loop = true;
+        }
+
         LavaDoorTimer -= Time.deltaTime;
 
         if(LavaDoorTimer<= 0.0f){

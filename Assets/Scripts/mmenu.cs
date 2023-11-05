@@ -26,7 +26,8 @@ public class mmenu : MonoBehaviour
 	
 	public void StartGame()
 	{
-		SceneManager.LoadScene("OtherSceneName", LoadSceneMode.Single);
+		Debug.Log("ok");
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 	}
 
 }

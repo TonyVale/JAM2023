@@ -29,6 +29,10 @@ public class WaterController : MonoBehaviour
         if((int)m_lineRenderer.GetPosition(0).y == (int)m_lineRenderer.GetPosition(1).y){
             Destroy(this.gameObject);}
         Draw2DRay(m_lineRenderer.GetPosition(0) - new Vector3(0 , 0.1f , 0), m_lineRenderer.GetPosition(1));
+
+        if(_hit.collider.gameObject.tag == "Fuego" ){
+            Destroy(_hit.collider.gameObject);
+        }
     }
 
     
@@ -41,4 +45,6 @@ public class WaterController : MonoBehaviour
     void Update(){
          _hit = Physics2D.Raycast(transform.position, Vector2.down);
     }
+
+    
 }
