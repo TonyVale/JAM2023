@@ -180,6 +180,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1031349090}
     - target: {fileID: 3770937121620865240, guid: af722ac1292c4c4418d0c0c18107781d, type: 3}
+      propertyPath: LavaDoorL
+      value: 
+      objectReference: {fileID: 1248844048}
+    - target: {fileID: 3770937121620865240, guid: af722ac1292c4c4418d0c0c18107781d, type: 3}
+      propertyPath: LavaDoorR
+      value: 
+      objectReference: {fileID: 1240158394}
+    - target: {fileID: 3770937121620865240, guid: af722ac1292c4c4418d0c0c18107781d, type: 3}
       propertyPath: PlayerPrefab
       value: 
       objectReference: {fileID: 4280732797503109615, guid: a1a9d90935d14af40a5233f61a6fb020, type: 3}
@@ -325,6 +333,16 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
+--- !u!1 &1240158394 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 301600387067998856, guid: b691c8eb54a20464b8c35a246ae92f18, type: 3}
+  m_PrefabInstance: {fileID: 1790100377}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1248844048 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6265789140795549236, guid: b691c8eb54a20464b8c35a246ae92f18, type: 3}
+  m_PrefabInstance: {fileID: 1790100377}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1410189126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -461,7 +479,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1773611288951254768, guid: b691c8eb54a20464b8c35a246ae92f18, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 30
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 1773611288951254768, guid: b691c8eb54a20464b8c35a246ae92f18, type: 3}
       propertyPath: m_LocalPosition.y
