@@ -11,6 +11,9 @@ TagManager:
   - ChargeBar
   - Fuego
   - NextScene
+  - FinalEscene
+  - Nuve
+  - Princes
   layers:
   - Default
   - TransparentFX

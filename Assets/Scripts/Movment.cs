@@ -1,14 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Microsoft.Unity.VisualStudio.Editor;
 using Unity.Mathematics;
 using Unity.VisualScripting;
-using UnityEditor.Callbacks;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using UnityEditor.Animations;
 
 //2 CHESS, 2 BOND, 2 ROQUE 
 public class Movment : MonoBehaviour
@@ -26,7 +23,7 @@ public class Movment : MonoBehaviour
     public GameObject Water;
     private GameObject ChargeBar;
 
-    private Animator animator;
+    private Animator anim; 
     
 
 
@@ -35,7 +32,7 @@ public class Movment : MonoBehaviour
     /// Awake is called when the script instance is being loaded.
     /// </summary>
     void Awake(){
-        animator = gameObject.GetComponent<Animator>();
+        anim = GetComponent<Animator>(); 
         ChargeBar = UnityEngine.GameObject.FindGameObjectsWithTag("ChargeBar")[0];
         watherCharge = SceneManager.GetActiveScene().buildIndex * 100 ;
         TotalWatherCharge = watherCharge;
@@ -46,7 +43,7 @@ public class Movment : MonoBehaviour
     
     // Start is called before the first frame update
     void Start(){
-
+        
     }
 
     void FixedUpdate(){
@@ -56,7 +53,7 @@ public class Movment : MonoBehaviour
 
         if(Input.GetKeyDown("d") && rb2d.velocity.x < 6){
             rb2d.AddForce(new Vector2( 100f , 0f ));
-            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            
         }
         if(Input.GetKeyDown("a") && rb2d.velocity.x > -6){
             rb2d.AddForce(new Vector2( -100f , 0f ));
@@ -74,16 +71,15 @@ public class Movment : MonoBehaviour
             rb2d.AddForce(new Vector2( -10f , 0f ));
             if(rb2d.velocity.x < -6 ){
                 rb2d.AddForce(new Vector2( 10f , 0f ));
-                gameObject.GetComponent<SpriteRenderer>().flipX = true;
+                
             }
         }
 
         if(Input.GetKey("space") && _hit.distance <= MaxFloorHeight && watherCharge >= 0 && rb2d.velocity.y <= MaxJumpVelocity ){
-            
+            anim.SetBool(anim.GetParameter(1).name, true);
             Instantiate(Water, DownCollitionRadarTrans);
             rb2d.AddForce(new Vector2( 0f , watherPower ));
             watherCharge--;
-            
         }
 
         if(Input.GetKey("r")){
@@ -97,25 +93,31 @@ public class Movment : MonoBehaviour
     
 
     void Update(){
-
         
-        _hit = Physics2D.Raycast(DownCollitionRadarTrans.position, Vector2.down);
-        if(Input.GetKey("d")){
-            animator.SetBool("Movment", true);
-            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+
+        if(Input.GetKey(KeyCode.Escape)){
+            SceneManager.LoadScene(0);
         }
-        if(Input.GetKey("a")){
-            animator.SetBool("Movment", true);
-            gameObject.GetComponent<SpriteRenderer>().flipX = true;
+
+        _hit = Physics2D.Raycast(DownCollitionRadarTrans.position, Vector2.down);
+        if(Input.GetKeyDown("d")){
+            anim.SetBool(anim.GetParameter(0).name, true);
+            gameObject.GetComponent<Transform>().eulerAngles = new Vector3(0,0,0);
+        }
+        if(Input.GetKeyDown("a")){
+            anim.SetBool(anim.GetParameter(0).name, true);
+            gameObject.GetComponent<Transform>().eulerAngles = new Vector3(0,180,0);
         }
         if(Input.GetKeyUp("a") || Input.GetKeyUp("d")){
-            animator.SetBool("Movment", false);
+            anim.SetBool(anim.GetParameter(0).name, false);
         }
         if( !Input.GetKey("d") && rb2d.velocity.x >= 1 ){
             rb2d.AddForce(new Vector2( -2f , 0f ));
         }
         if( !Input.GetKey("a") && rb2d.velocity.x <= -1 ){
             rb2d.AddForce(new Vector2( 2f , 0f ));
+        }if(!Input.GetKey("space")){
+            anim.SetBool(anim.GetParameter(1).name, false);
         }
     }
 

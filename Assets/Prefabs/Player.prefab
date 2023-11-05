@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5187257023800588371}
   - component: {fileID: 9008659785275126929}
   - component: {fileID: -678769531736424289}
-  - component: {fileID: 4118792633800769065}
+  - component: {fileID: 2276433966918838884}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6159474566099628153}
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Cir: {fileID: 6341068785919477559, guid: 2df87245c67cc034e825fa0867f418e5, type: 3}
---- !u!95 &4118792633800769065
+--- !u!95 &2276433966918838884
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -239,7 +239,7 @@ Transform:
   m_GameObject: {fileID: 7115714682168131302}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.2, y: 1.31, z: 0}
+  m_LocalPosition: {x: 2.42, y: -3.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
